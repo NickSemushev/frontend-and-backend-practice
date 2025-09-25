@@ -4,36 +4,39 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Семестровая работа</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="practices.html">Практики</a></li>
-                <li><a href="goods.html">Товары</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <div class="goods__cards">
-            <div class="goods__card">
-                <img src="Без названия.png" alt="">
-                <h2 class="goods__title">Название 1</h2>
-                <p class="goods__price">Цена:59983492394234948</p>
+        <div class="page__container">
+            <div class="header">Хэдер</div>
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+                    <li class="nav__item"><a class="nav__link" href="news.html">Новости</a></li>
+                    <li class="nav__item"><a class="nav__link" href="practices.html">Практики</a></li>
+                    <li class="nav__item"><a class="nav__link" href="goods.html">Товары</a></li>
+                    <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
+                </ul>
             </div>
-            <div class="goods__card">
-                <img src="bolotnaya-sova-1.jpg" alt="" style="width: 200px;">
-                <h2 class="goods__title">Название 2</h2>
-                <p class="goods__price">Цена:234948</p>
+            <div class="content">
+                <div class="goods__cards">
+                    <div class="goods__card">
+                        <img class="goods__img" src="Без названия.png" alt="">
+                        <h2 class="goods__title">Название 1</h2>
+                        <p class="goods__price">Цена:59983492394234948</p>
+                    </div>
+                    <div class="goods__card">
+                        <img class="goods__img" src="bolotnaya-sova-1.jpg" alt="">
+                        <h2 class="goods__title">Название 2</h2>
+                        <p class="goods__price">Цена:234948</p>
+                    </div>
+                    <div class="goods__card">
+                        <img class="goods__img" src="gl.jpg" alt="">
+                        <h2 class="goods__title">Название 3</h2>
+                        <p class="goods__price">Цена:599848</p>
+                    </div>
+                </div>
             </div>
-            <div class="goods__card">
-                <img src="gl.jpg" alt="" style="width: 200px;">
-                <h2 class="goods__title">Название 3</h2>
-                <p class="goods__price">Цена:599848</p>
-            </div>
-        </div>
-        <div id="footer">Футер</div>
+            <div class="footer">Футер</div>
     </body>
 </html>
